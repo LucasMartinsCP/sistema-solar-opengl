@@ -117,17 +117,17 @@ def init():
 
     global textures
     textures = {
-        "Sol":      load_texture("sol.jpg"),
-        "Mercúrio": load_texture("mercurio.jpg"),
-        "Vênus":    load_texture("venus.jpg"),
-        "Terra":    load_texture("terra.jpg"),
-        "Lua":      load_texture("lua.jpg"),
-        "Marte":    load_texture("marte.jpg"),
-        "Júpiter":  load_texture("jupiter.jpg"),
-        "Saturno":  load_texture("saturno.jpg"),
-        "Urano":    load_texture("urano.jpg"),
-        "Netuno":   load_texture("netuno.jpg"),
-        "Aneis":    load_texture("aneis_saturno.png"),
+        "Sol":      load_texture("img/sol.jpg"),
+        "Mercúrio": load_texture("img/mercurio.jpg"),
+        "Vênus":    load_texture("img/venus.jpg"),
+        "Terra":    load_texture("img/terra.jpg"),
+        "Lua":      load_texture("img/lua.jpg"),
+        "Marte":    load_texture("img/marte.jpg"),
+        "Júpiter":  load_texture("img/jupiter.jpg"),
+        "Saturno":  load_texture("img/saturno.jpg"),
+        "Urano":    load_texture("img/urano.jpg"),
+        "Netuno":   load_texture("img/netuno.jpg"),
+        "Aneis":    load_texture("img/aneis_saturno.png"),
     }
 
 def draw_scene():
